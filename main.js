@@ -5,22 +5,33 @@
 //          PART ONE
 // ***************************
 // Write a JavaScript program to display the current day and time, start with:
-console.log(new Date)
+// console.log(new Date)
 
-const displayDate = () => {
-  const currentDate = new Date()
+// const displayDate = () => {
+//  const currentDate = new Date()
 
-  document.getElementById("display-element").innerHTML = currentDate;
+//  document.getElementById("display-element").innerHTML = currentDate;
+//}
+
+function displayDate() {
+  document.getElementById("ShowDate").innerHTML = Date();
+
 }
  
 
 // Write a JavaScript program to convert a number to a string.
 
+var x = 200;
+console.log(typeof x.toString);
+console.log(typeof x);
+
 
 
 // Write a JavaScript program to convert a string to the number.
 
-
+var stringtonumber = "hello";
+parseInt(stringtonumber);
+console.log(stringtonumber);
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
